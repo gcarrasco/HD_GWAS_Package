@@ -116,7 +116,7 @@ if args.gwas:
     if gwas_a_error!=0:
         print("Warning: Your GWAS file doesn't have a chr# written in the first column")
     if gwas_d_error!=0:
-        print("Warning: Your GWAS file doesn't have a rs# written in the fourth column")
+        print("Warning: Your GWAS file doesn't have alphanumeric characters in the fourth column")
     if gwas_a_error==0 and gwas_b_error==0 and gwas_c_error==0 and gwas_d_error==0:
         gwas_errors=0;
         print "Gwas file: CORRECT FORMAT"
