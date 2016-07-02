@@ -86,7 +86,7 @@ if args.gwas:
                     gwas_a_error=gwas_a_error
                 else:
                     gwas_a_error=gwas_a_error+1
-                if n.group(1) == 'rs':
+                if column_d.isalnum() == True:
                     gwas_d_error=gwas_d_error
                 else:
                     gwas_d_error=gwas_d_error+1
